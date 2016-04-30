@@ -1,0 +1,5 @@
+{
+  "APP": {
+    "INFO": "app 版本: {{version}}."
+  }
+}

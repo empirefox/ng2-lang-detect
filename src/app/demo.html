@@ -1,0 +1,9 @@
+ Change langage:
+<select (change)="langService.use($event.target.value)">
+  <option *ngFor="#lang of languages" [selected]="lang === translate.currentLang">{{lang}}</option>
+</select>
+<br/>
+<lib-with-lang></lib-with-lang>
+<p>
+  {{ 'APP.INFO' | translate:{version: version} }}
+</p>

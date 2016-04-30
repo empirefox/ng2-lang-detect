@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node"
+  },
+  "files": [
+    "typings/browser.d.ts",
+    "ng2-lang-detect.ts",
+    "src/bootstrap.ts",
+    "src/vendor.ts"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}
