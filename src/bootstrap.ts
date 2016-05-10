@@ -1,7 +1,8 @@
-import {enableProdMode, provide} from 'angular2/core';
-import {COMMON_DIRECTIVES} from 'angular2/common';
-import {HTTP_PROVIDERS, Http} from 'angular2/http';
-import {bootstrap, ELEMENT_PROBE_PROVIDERS} from 'angular2/platform/browser';
+import {enableProdMode, provide} from '@angular/core';
+import {COMMON_DIRECTIVES} from '@angular/common';
+import {HTTP_PROVIDERS, Http} from '@angular/http';
+import {ELEMENT_PROBE_PROVIDERS} from '@angular/platform-browser';
+import {bootstrap} from '@angular/platform-browser-dynamic';
 import {TranslateService, TranslatePipe, TranslateLoader, TranslateStaticLoader} from 'ng2-translate/ng2-translate';
 import {LangService} from './app/services/lang.service';
 

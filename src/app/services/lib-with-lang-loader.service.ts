@@ -1,5 +1,5 @@
-import {Injectable, Inject, Optional, OpaqueToken} from 'angular2/core';
-import {Http} from 'angular2/http';
+import {Injectable, Inject, Optional, OpaqueToken} from '@angular/core';
+import {Http} from '@angular/http';
 import {TranslateStaticLoader} from 'ng2-translate/ng2-translate';
 import {LangLoaderConfig} from './lang.service';
 

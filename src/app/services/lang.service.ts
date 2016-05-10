@@ -1,6 +1,6 @@
-import {Injectable} from 'angular2/core';
+import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
-import {ReplaySubject} from 'rxjs/subject/ReplaySubject';
+import {ReplaySubject} from 'rxjs/ReplaySubject';
 // For systemjs
 // use map 'i18next-browser-languagedetector': 'node_modules/i18next-browser-languagedetector/index'
 // and use: import LngDetector from 'i18next-browser-languagedetector';

@@ -1,4 +1,4 @@
-import {Component, OnInit, provide} from 'angular2/core';
+import {Component, OnInit, provide} from '@angular/core';
 import {TranslateService, TranslatePipe, TranslateLoader} from 'ng2-translate/ng2-translate';
 
 import {LangService} from '../services/lang.service';
